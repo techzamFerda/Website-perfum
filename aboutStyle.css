@@ -1,0 +1,211 @@
+@charset "utf-8";
+html, body{
+	width:100%;
+	height: 100%;
+	margin: 0px;padding:0px;
+}
+@font-face{
+	font-family: rojeeh;
+	src: url('../fonts/MontserratBold.ttf');
+	
+}
+h1{
+	 text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: rojeeh;
+}
+.containerAbout{
+	margin: 10px 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	background-image: url(../img/backgroundImage2.jpeg);
+}
+
+
+.contentAbout{
+	width:70%;
+	background-color: white;
+	margin: 20px 0px;
+	padding: 15px;		
+}
+
+.contentAbout img{
+	display: none;
+}
+video{
+	display: none;
+}
+
+audio{
+	display: none;
+	}
+
+.div-facebookLike{
+	display: none;
+}	
+
+#item1{
+	bottom:-500px;
+	opacity:0;
+}
+
+.item2{
+	bottom:-500px;
+	opacity:0;
+}
+#item3{
+	bottom:-500px;
+	 opacity:0;
+}
+
+.twitterFollow{
+	display: none;
+}
+
+
+
+@media only screen and (min-width: 500px){ 
+h1{
+	font-size: 20px;		
+}
+	
+.contentAbout{
+	width:30%;
+	background-color: white;
+	margin: 20px 15px;
+	padding: 15px;
+	text-align: center;
+}
+	
+.contentAbout img{
+	display: inline;
+	width:130px;
+	
+}
+
+.containerAbout{
+	margin: 10px 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	background-image: url(../img/backgroundImage2.jpeg);
+	
+}
+
+
+}
+
+@media only screen and (min-width: 800px){ 
+
+.contentAbout img{
+	display: inline;
+	width:200px;
+	
+}
+
+}
+
+@media only screen and (min-width: 900px){ 
+h1{
+	font-size: 30px;		
+}
+
+.containerAbout{
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	
+	background-image:none;
+
+}
+.contentAbout{
+	width:25%;
+	background-color: white;
+	margin: 20px 15px;
+	padding: 15px;
+	text-align:center;
+	
+	
+}
+	.contentAbout p{
+		text-align: justify;
+	}
+	
+	
+	
+	
+
+.contentAbout img{
+	display: inline;
+	width:250px;
+}
+	
+	video{
+		display: inline;
+	}
+	
+	#backgroundImg2{
+		background-color: #DBD1D1;
+	}
+	audio{
+		margin:15px;
+		display: inline-block;
+		
+	}
+	.backgroundImg{
+		background-color:rgba(251,248,248,0.69);
+	}
+	
+	
+	.div-facebookLike{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}	
+#facebookTag{
+	width:40%;
+	
+}
+#viewport-video{
+	width:100%;
+	text-align: center;
+	
+
+}
+#backgroundAboutVideo{
+		width:1500px;
+}
+.audiofragment{
+		text-align: center;
+}
+.twitterFollow {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 1400px){ 
+
+.contentAbout img{
+	display: inline;
+	width:350px;
+}
+
+
+
+
+
+}
+
+

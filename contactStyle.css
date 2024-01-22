@@ -1,0 +1,134 @@
+@charset "utf-8";
+body,html{
+	padding:0px;
+	margin:0px;
+}
+
+@font-face{
+	font-family: rojeeh;
+	src: url('../fonts/MontserratBold.ttf');
+	
+}
+.listUren{
+	width:44%;
+	font-size:17px;
+	margin-left: 15px;
+	
+}
+ h1{
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+	 font-size:15px;
+	 font-family: rojeeh;
+}
+
+.contactList ul{
+	padding: 0px;
+	margin: 0px;
+	
+
+}
+.contactList li{
+	list-style-type: none;
+	margin-bottom: 10px;
+	list-style-image: url(../img/hourIcon.png);
+}
+
+main{
+	font-size: 17px;
+	
+}
+.mainImg{
+	width:24px;
+}
+
+.mapIframe{
+	width:100%;
+}
+iframe {
+    width:100%;
+}
+.form-table{
+	padding: 10px;
+	
+}
+
+.form-table input{
+	border: 1px solid #ACACAC;
+	background-color: #E8E8E8;
+	border-radius: 5px;
+	padding: 5px;
+}
+#verzendKnop{
+	background-color: black;
+	color: white;
+	border: 0px;
+	padding: 10px;
+}
+
+@media only screen and (min-width: 560px){
+	h1{
+	font-size: 20px;		
+   }
+	.listUren{
+	width:45%;
+	
+   }
+	.containerContent{
+		display: flex;
+		flex-wrap: wrap;
+		padding: 10px;
+		
+	}
+	.mapIframe{
+     width:400px;
+	 height: 220px;
+     float: right;
+} 
+  	
+.form-table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+	
+}
+
+
+@media only screen and (min-width: 900px){
+	
+	h1{
+	font-size: 30px;		
+}
+    .containerContent{
+		display :flex;
+		flex-wrap:wrap;
+		justify-content:space-around;
+		
+	}
+	
+	.table{
+		width:30%;
+		border-left: 6px solid black;
+	}
+	
+	.listUren{
+		
+		width:30%;
+	    margin-left:5px;
+		border-right: 6px solid black;
+	}
+		.mapIframe{
+     width:450px;
+	 height: 220px;
+	  
+     
+}
+    
+	
+	
+	
+}
+

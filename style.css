@@ -1,0 +1,371 @@
+ @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Bungee|Bungee+Inline&display=swap');
+body, html{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+@font-face{
+	font-family: rojeeh;
+	src: url('../fonts/MontserratBold.ttf');
+	
+}
+.search{
+	color:white;
+	background-color:#2C2E2C;
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.fas{
+	font-size:5px;
+}
+
+.iconText{
+	display: none;
+}
+.search img{
+	width:100px;
+	float:left;
+	padding-left: 20px;
+}
+
+.banner{
+	width: 100%;
+	background-image: url(../img/backgroundImage.jpeg);
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+
+.navgatie{
+	background-color: white;
+	position: fixed;
+	width:80%;
+	left:-900px;
+	height: 100%;
+	top:0px;
+}
+.navgatie ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	
+}
+.navgatie ul li a{
+	width: 88%;
+	text-align: left;
+	display: inline-block;
+	padding:  30px 21px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+    font-family: 'Bebas Neue', cursive;
+	
+	
+
+}
+
+.navgatie ul li a:hover{
+	background-color: #9A9595;
+}
+
+.navgatie ul li ul{
+	position: absolute;
+	display: none;
+	margin:0px;
+	padding:0px;
+	
+
+}
+
+.navgatie ul li:hover ul {
+	display: block;
+	background-color:rgba(240,237,238,0.88);
+	overflow: hidden;
+	
+	
+}
+
+
+
+.navgatie ul li ul li a:hover{
+	background-color:rgba(179,176,176,0.44);
+	width:100%;
+	
+
+}
+
+
+.container{
+	display: flex;
+	justify-content: center;
+    flex-wrap: wrap;
+	align-items: center;
+	
+}
+
+.container h1{
+	text-align: center;
+	width: 100%;
+	 text-transform: uppercase;
+	font-size: 15px;
+	font-family: rojeeh;
+}
+.content{
+	width:38%;
+	border: solid rgba(204,202,202,0.94) 2px;
+	padding:10px;
+	margin: 10px;
+	display:flex;
+	justify-content: center;
+    flex-wrap: wrap;
+	align-items: center;
+   font-family: 'Alegreya Sans SC', sans-serif;
+	
+	
+}
+.content:hover{
+	border: solid 7px #2C2E2C;
+}
+.content img{
+	width: 200px;
+
+}
+.content h2, p{
+	width:100%;
+	text-align: center;
+}
+.content p{
+	color: rgba(183,180,180,1.00);
+}
+.content span{
+	color: rgba(191,4,161,1.00);
+	font-weight: bold;
+}
+
+footer{
+	background-color: #2C2E2C;
+	color:white;
+	text-align:center;
+	height: 300px;
+	
+}
+footer .fab, .fas{
+	padding: 10px;
+	font-size:30px;
+	
+}
+
+.socialMedia {
+	color: white;
+}
+
+#followparagraaf{
+	font-size: 30px;
+}
+
+.socialMedia{
+	
+	padding-top: 30px;
+	
+}
+.account{
+	display: none;
+}
+
+#point{
+	font-size: 15px;
+}
+
+#block{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.80);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+.cookie-container{
+	background-color:rgba(166,164,164,0.60);
+	width:400px;
+	padding: 20px;
+	border-radius: 20px;
+}
+@media only screen and (min-width: 500px){ 
+	
+	.container h1{
+	 font-size:20px;
+     }
+	.search{
+		color:rgba(192,192,192,1.00);
+		 display: flex;
+		justify-content: space-between;
+		align-items: center;
+		
+	}
+	
+	.iconText{
+	    padding: 10px;
+		display: inline;
+		color:rgba(192,192,192,1.00);
+		font-family: 'Varela Round', sans-serif;
+		font-size: 12px;
+	}
+	.account{
+	display: inline;
+	
+    }
+	
+	.navgatie {
+		background-color:rgba(227,227,227,0.90);
+	   position: inherit;
+		width: 100%;
+	
+
+	}
+	
+	.navgatie ul{
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.navgatie ul li  a {
+		display: inline-block; 
+		color: white;
+		text-decoration: none; 
+		text-transform: uppercase;
+		font-size: 15px;
+		color: black;
+		padding: 10px;
+		width:80%;
+	}
+
+	.fa-bars{
+		display: none
+	}
+
+	.search .fas{
+		font-size:22px;
+		padding:15px;
+	}
+	.search img{
+		width:120px;
+
+
+	}	
+	
+.content{
+	width:25%;
+	border: solid rgba(204,202,202,0.94) 2px;
+	padding:10px ;
+	margin: 10px;
+	display:flex;
+	justify-content: center;
+    flex-wrap: wrap;
+	align-items: center;
+   
+	
+	
+	}
+	
+footer .fab, .fas{
+padding: 10px;
+font-size:40px;
+}
+	
+		#point{
+	font-size: 20px;
+}
+
+}
+@media only screen and (min-width: 800px){
+
+.iconText{
+	    padding: 10px;
+		display: inline;
+		color:rgba(192,192,192,1.00);
+		font-family: 'Varela Round', sans-serif;
+		font-size: 18px;
+	}
+	
+	
+	.search .fas{
+		font-size:27px;
+		padding:15px;
+	}
+
+}
+@media only screen and (min-width: 900px){ 
+	.container h1{
+	
+	font-size: 30px;
+   }
+	.navgatie ul li a{
+	padding:20px;
+	font-size: 37px;
+    }
+	.search img{
+		padding-left:10%;
+		width:150px;
+	}
+	.search{
+		color:rgba(192,192,192,1.00);
+	    display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.search .fas{
+		font-size:35px;
+		padding:25px;
+	}
+	.iconText{
+	    padding: 10px;
+		display: inline;
+		color:rgba(192,192,192,1.00);
+		font-family: 'Buda', cursive;
+		font-size: 30px;
+	}
+
+	
+	.content{
+		width:20%;
+		border: solid rgba(204,202,202,0.94) 2px;
+		padding:10px;
+		margin: 10px;
+		display:flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-items: center;
+		}
+
+		footer .fab, .fas{
+		padding: 10px;
+		font-size:40px;
+		}
+
+		#point{
+		font-size: 30px;
+	}
+}
+
+
+	
+
+
